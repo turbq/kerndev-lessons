@@ -42,6 +42,11 @@
 *.idb
 *.pdb
 
+# Temporary
+*.log
+*.swp
+*.swo
+
 # Kernel Module Compile Results
 *.mod*
 *.cmd
