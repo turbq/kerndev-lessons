@@ -1,0 +1,8 @@
+#!/bin/bash
+
+MODULE=solution
+MAJOR_NUM=240
+MINOR_NUM=0
+
+insmod $MODULE.ko || exit 1
+mknod /dev/solution_node c $MAJOR_NUM $MINOR_NUM
